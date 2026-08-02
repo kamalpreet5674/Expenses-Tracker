@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "Date": "02-08-2026",
+        "Category": "food",
+        "Amount": 55,
+        "description": "rice"
+    },
+    {
+        "Date": "02-08-2026",
+        "Category": "food",
+        "Amount": 88,
+        "description": "coak"
+    },
+    {
+        "Date": "02-08-2026",
+        "Category": "drinks",
+        "Amount": 50,
+        "description": "sprite"
+    },
+    {
+        "Date": "02-08-2026",
+        "Category": "terst",
+        "Amount": 665,
+        "description": "wef"
+    }
+]

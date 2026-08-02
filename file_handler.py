@@ -24,6 +24,7 @@ import json
  
 
 FILE_PATH = "data/expenses.json"
+
 def load_data():
 
  try:
