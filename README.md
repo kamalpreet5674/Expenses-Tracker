@@ -1,6 +1,6 @@
 # Personal Expense Tracker
 
-A command-line Personal Expense Tracker built with Python.
+A command-line application built in Python to manage daily expenses.
 
 ## Features
 
@@ -8,6 +8,22 @@ A command-line Personal Expense Tracker built with Python.
 - View Expenses
 - Filter by Category
 - Monthly Summary
-- JSON Storage
-- Exception Handling
-- OS Module
+- JSON File Storage
+
+# File Handler.pyS
+
+- load data
+- save data 
+
+# Utilities.py
+
+
+# Expenses manager.py
+
+
+
+## Technologies
+
+- Python
+- JSON
+- Git
