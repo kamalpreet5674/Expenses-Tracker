@@ -2,7 +2,9 @@ from datetime import date
 
 import file_handler
 
-expenses = []
+import json
+
+
 
 def add_expenses():
     todaydate = date.today()
@@ -23,7 +25,21 @@ def add_expenses():
     
     file_handler.save_data(message)
     
-if __name__ == "__main__":
-    print("--- Expense Tracker Loaded ---")
-    add_expenses()    
+
+  
+
+def view_expenses():
+    
+    expenses = file_handler.load_data()
+        
+    for index, expense in enumerate(expenses, start=1):
+         print(f"\n--- Expense #{index} ---")
+         for key, value in expense.items():
+          print(f"{key}: {value}")
+        
+       
+    
+    
+    
+# view_expenses()        
   

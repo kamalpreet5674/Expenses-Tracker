@@ -19,8 +19,26 @@
     },
     {
         "Date": "02-08-2026",
-        "Category": "terst",
-        "Amount": 665,
-        "description": "wef"
+        "Category": "food",
+        "Amount": 100,
+        "description": "cake"
+    },
+    {
+        "Date": "02-08-2026",
+        "Category": "german",
+        "Amount": 5000,
+        "description": "shephard"
+    },
+    {
+        "Date": "02-08-2026",
+        "Category": "rohan",
+        "Amount": 555,
+        "description": "dfwef"
+    },
+    {
+        "Date": "02-08-2026",
+        "Category": "kamraj",
+        "Amount": 200,
+        "description": "condo,"
     }
 ]

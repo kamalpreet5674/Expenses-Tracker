@@ -1,7 +1,8 @@
 import expense_manager
 
 def menu():
- print("===== Expenses Tracker System =====")    
+ print("===== Expenses Tracker System =====")   
+ print("         Operation starting") 
  menu_options = [
      "Add Expense",
      "View Expense",
@@ -34,13 +35,15 @@ def main():
                 expense_manager.add_expenses()
 
             elif choice == 2:
-                view_expenses()
+                expense_manager.view_expenses()
 
             elif choice == 3:
-                filter_by_category()
+                pass
+                # filter_by_category()
 
             elif choice == 4:
-                monthly_summary()
+                pass
+                # monthly_summary()
 
 
             elif choice == 5:
@@ -59,5 +62,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
-print("Operations done")
+  main()
+
