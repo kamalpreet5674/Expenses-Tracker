@@ -1,29 +1,49 @@
-# Personal Expense Tracker
+# Personal Expense Tracker 💰
 
-A command-line application built in Python to manage daily expenses.
+A Python CLI based Personal Expense Tracker application.
 
-## Features
+## About Project
 
-- Add Expense
-- View Expenses
-- Filter by Category
-- Monthly Summary
-- JSON File Storage
+This project helps users manage their daily expenses.
 
-# File Handler.pyS
+Users can:
+- Add expenses
+- View expenses
+- Filter expenses by category
+- Generate monthly summaries
 
-- load data
-- save data 
-
-# Utilities.py
-
-
-# Expenses manager.py
-
-
-
-## Technologies
+## Technologies Used
 
 - Python
-- JSON
-- Git
+- JSON File Handling
+- Functions
+- Exception Handling
+
+## Project Structure
+
+Expenses-Tracker
+│
+├── data
+│ └── expenses.json
+│
+├── main.py
+├── expense_manager.py
+├── file_handler.py
+├── utils.py
+└── README.md
+
+
+## Current Progress
+
+✅ Project setup  
+✅ JSON database created  
+✅ File loading system   (Load data)
+✅ File saving system  (save data)
+
+## Future Features
+
+- Edit expense
+- Delete expense
+- Search by date
+- CSV export
+- Charts
