@@ -37,8 +37,8 @@ Expenses-Tracker
 
 ✅ Project setup  
 ✅ JSON database created  
-✅ File loading system   (Load data)
-✅ File saving system  (save data)
+✅ File loading system  
+✅ File saving system 
 ✅ Add expenses 
 
 ## Future Features
