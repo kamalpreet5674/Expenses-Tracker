@@ -38,8 +38,7 @@ def main():
                 expense_manager.view_expenses()
 
             elif choice == 3:
-                pass
-                # filter_by_category()
+              expense_manager.filter_by_category()
 
             elif choice == 4:
                 pass
