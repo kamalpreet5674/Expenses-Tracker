@@ -37,62 +37,41 @@ def view_expenses():
           print(f"{key}: {value}")
 
      
-       
-def filter_by_category():
-
+def search_expenses():
     expenses = file_handler.load_data()
 
     if not expenses:
         print("No expenses found.")
         return
 
-    found = False
-    use_category = input("Enter the category you want to search: ")
+    field = input("Search by (1) Category or (2) Title? Enter 1 or 2: ").strip()
 
-    for each in expenses:
-        if each["Category"] == use_category:
-
-            print("=======================================")
-
-            for key, value in each.items():
-                print(f"{key}: {value}")
-
-            print("=======================================")
-            print()
-
-            found = True
-
-    if not found:
-        print("No item found with this category.")
-  
-def search_by_title():
-
-    expenses = file_handler.load_data()
-
-    if not expenses:
-        print("No expenses found.")
+    if field == "1":
+        key_name = "Category"
+    elif field == "2":
+        key_name = "Title"
+    else:
+        print("Invalid choice.")
         return
 
+    query = input(f"Enter the {key_name.lower()} you want to search: ").strip().lower()
+
     found = False
-    title = input("Enter the title you want to search: ")
-
     for each in expenses:
-        if each["Title"] == title:
-
+        if each[key_name].strip().lower() == query:
             print("=======================================")
-
             for key, value in each.items():
                 print(f"{key}: {value}")
-
             print("=======================================")
             print()
-
             found = True
 
     if not found:
-        print("No item found with this title.")
-  
+        print(f"No item found with this {key_name.lower()}.")
+   
 
+
+   
   
 def monthly_summary():
     expenses = file_handler.load_data()
@@ -133,7 +112,7 @@ def update_expenses():
         return
 
     found = False
-    title = input("Enter the title you want to search: ")
+    title = input("Enter the title you wnat to update : ")
 
     for each in expenses:
         if each["title"] == title:
@@ -177,4 +156,43 @@ def update_expenses():
       print("No item found with this title.") 
     
     
-update_expenses()
+def delete_expenses():
+    
+    expenses = file_handler.load_data()
+
+    if not expenses:
+        print("No expenses found.")
+        return
+    
+    title = input("Enter the title of item you want to delete : ")
+    
+    found = False
+
+    for each in expenses:
+        
+        if each["Title"] == title:
+             
+         choice = input("Are you sure (y/n) : ").lower()
+          
+         if choice == "y":
+           found = True
+           expenses.remove(each)
+           break
+        
+         elif choice == "n":
+          print("Operation cancelled.")
+          break
+      
+         else:
+             print("Invalid input")   
+        
+    
+        
+    
+    if found:
+        file_handler.save_data(expenses)
+        print("Expense deleted successfully.")
+    else:
+      print("No item found with this title.")     
+      
+     

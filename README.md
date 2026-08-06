@@ -169,9 +169,12 @@ Menu Options:
 
 1. Add Expense
 2. View Expenses
-3. Filter by Category *(Coming Soon)*
-4. Monthly Summary *(Coming Soon)*
-5. Exit
+3. Search Expenses
+4. Update Expenses
+5. Delete expenses
+6. Monthly Summary *(Coming Soon)*
+7. Exit
+
 
 Responsibilities:
 
@@ -200,12 +203,7 @@ Responsibilities:
 
 ---
 
-# 🚧 Upcoming Features
 
-* Filter expenses by category
-* Monthly expense summary
-* Expense statistics
-* Better output formatting
 
 ---
 

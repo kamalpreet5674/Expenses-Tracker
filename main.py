@@ -6,7 +6,9 @@ def menu():
  menu_options = [
      "Add Expense",
      "View Expense",
-     "Filter by Category",
+     "Search Expenses",
+     "Update Expeses",
+     "Delete Expeses",
      "Monthly Summary",
      "Exit",
       
@@ -38,14 +40,19 @@ def main():
                 expense_manager.view_expenses()
 
             elif choice == 3:
-              expense_manager.filter_by_category()
+              expense_manager.search_expenses()
 
             elif choice == 4:
-                pass
-                expense_manager.monthly_summary()
-
-
+                expense_manager.update_expenses()
+                
             elif choice == 5:
+                expense_manager.delete_expenses()
+                
+            elif choice == 6:
+                expense_manager.monthly_summary()
+                
+                
+            elif choice == 7:
                 print("Thank you for using Expenses management System.")
                 break
 
