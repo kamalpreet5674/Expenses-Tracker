@@ -3,66 +3,67 @@
         "Date": "2026-08-02",
         "Category": "food",
         "Amount": 55,
-        "description": "rice"
+        "title": "rice"
     },
     {
         "Date": "2026-08-02",
         "Category": "food",
         "Amount": 88,
-        "description": "coak"
+        "title": "coak"
     },
     {
         "Date": "2026-08-02",
         "Category": "drinks",
         "Amount": 50,
-        "description": "sprite"
+        "title": "sprite"
     },
     {
-         "Date": "2026-08-02",
-        "Category": "food",
-        "Amount": 100,
-        "description": "cake"
+        "Date": "2026-08-02",
+        "Category": "kamal",
+        "Amount": 5000,
+        "title": "cake",
+        "Title": "red valvet cake"
     },
     {
         "Date": "2026-08-02",
         "Category": "german",
         "Amount": 5000,
-        "description": "shephard"
+        "title": "shephard"
     },
     {
-         "Date": "2026-08-02",
+        "Date": "2026-08-02",
         "Category": "rohan",
         "Amount": 555,
-        "description": "dfwef"
+        "title": "dfwef"
     },
     {
-         "Date": "2026-08-03",
+        "Date": "2026-08-03",
         "Category": "kamraj",
         "Amount": 200,
-        "description": "condo,"
+        "title": "condo,"
     },
     {
         "Date": "2026-08-03",
         "Category": "fast food",
         "Amount": 300,
-        "description": "noodles"
+        "title": "noodles"
     },
     {
         "Date": "2026-08-04",
         "Category": "fast food",
         "Amount": 50,
-        "description": "burger"
+        "title": "burger"
     },
     {
-       "Date": "2026-08-04",
+        "Date": "2026-08-04",
         "Category": "fired",
         "Amount": 50,
-        "description": "french fries"
+        "title": "french fries"
     },
     {
         "Date": "2026-08-04",
         "Category": "choclate",
         "Amount": 50,
-        "description": "snickers"
+        "title": "snickers"
     }
 ]

@@ -42,7 +42,7 @@ def main():
 
             elif choice == 4:
                 pass
-                # monthly_summary()
+                expense_manager.monthly_summary()
 
 
             elif choice == 5:
